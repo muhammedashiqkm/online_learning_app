@@ -43,8 +43,9 @@ INSTALLED_APPS = [
     'feedback',
     'assessments',
     'enrollments',
-    'admin_dashboard
+    'admin_dashboard',
     'discussions',
+    
 ]
 
 MIDDLEWARE = [
@@ -62,7 +63,7 @@ ROOT_URLCONF = 'learning_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates']
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
